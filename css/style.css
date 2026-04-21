@@ -58,7 +58,7 @@ a { text-decoration: none; color: inherit; }
   height: 52px; width: 52px; object-fit: cover;
   border-radius: 50%; border: 2px solid var(--green-bright);
 }
-.escola-logo { border-color: var(--gold); }
+.escola-logo { border: none; }
 .nav-links { display: flex; gap: 28px; list-style: none; }
 .nav-links a {
   font-size: 0.88rem; font-weight: 500; letter-spacing: 0.06em;
@@ -106,7 +106,6 @@ a { text-decoration: none; color: inherit; }
 .criso { color: var(--white); }
 .verde { color: var(--green-bright); }
 
-/* NOVA FRASE SUBTITLE */
 .hero-subtitle {
   font-family: var(--font-display);
   font-size: clamp(1rem, 2.5vw, 1.5rem);
@@ -142,7 +141,6 @@ a { text-decoration: none; color: inherit; }
   font-size: 0.95rem; font-weight: 600; letter-spacing: 0.04em;
   transition: all 0.25s;
 }
-/* Ícone nos botões */
 .btn-icon {
   width: 18px; height: 18px;
   object-fit: contain; flex-shrink: 0;
@@ -156,7 +154,6 @@ a { text-decoration: none; color: inherit; }
 }
 .btn-primary:hover { background: var(--green-light); border-color: var(--green-light); transform: translateY(-2px); }
 
-/* Botão CrisoApp — verde */
 .btn-app {
   background: var(--green-bright);
   color: var(--white); font-weight: 700;
@@ -182,7 +179,6 @@ a { text-decoration: none; color: inherit; }
   transform: translateY(-3px);
 }
 
-/* Instagram */
 .btn-instagram {
   background: linear-gradient(135deg, #e1306c, #833ab4);
   color: var(--white); font-weight: 700;
@@ -195,7 +191,6 @@ a { text-decoration: none; color: inherit; }
   box-shadow: 0 8px 28px rgba(225,48,108,0.6);
 }
 
-/* WhatsApp */
 .btn-whatsapp {
   background: #25D366;
   color: var(--white); font-weight: 700;
